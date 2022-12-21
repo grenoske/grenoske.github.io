@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Реєстрація</title>
+</head>
+<body>
+    <header><h1>Форма реєстрації</h1></header>
+    <main>
+        <form action="" method="post">
+            <label for="user_login">Логін:</label>
+            <input type="text"
+                   name="user_login"
+                   id="user_login"
+                   title="ввести логін"
+                   placeholder="введіть свій логін" />
+            <p></p>
+
+            <label for="user_password">Пароль:</label>
+            <input type="password"
+                   name="user_password"
+                   id="user_password"
+                   title="ввести пароль"
+                   placeholder="введіть свій пароль" />
+            <p></p>
+
+            <label for="user_password2">Повторіть пароль:</label>
+            <input type="password"
+                   name="user_password2"
+                   id="user_password2"
+                   title="ввести пароль"
+                   placeholder="введіть свій пароль повторно" />
+            <p></p>
+
+            <label for="selectS">Стать:</label>
+            <select name="selectS" id="selectS">
+                <option>Не вказувати</option>
+                <option>Чоловіча</option>
+                <option>Жіноча</option>
+            </select>
+            <p></p>
+
+            <input type="checkbox"
+                   value="Прочитав правила.."
+                   name="user_checkbox"
+                   id="user_checkbox"/>
+            <label for="user_checkbox">Прочитав правила користування</label>
+            <p></p>
+
+            <input type="submit" value="Зареєструватися" />
+            <input type="reset" value="Очистити" />
+
+            <p><a href="login.html" target="_blank">Увійти</a></p>
+
+        </form>
+    </main>
+    <footer>Футер 2022 Лаба 1</footer>
+</body>
+</html>
